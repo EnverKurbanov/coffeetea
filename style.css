@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: black;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 22px;
+   
+}
+
+a {
+   color: hsla(0, 0%, 100%, 0.75);
+}
+
+.logo {
+    filter: grayscale(100%) brightness(70%);
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.image {
+ /* width: 50px; */
+ height: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding-right: 35px;
+}
+
+.nav-links li {
+    margin-left: 8px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+}
+
+.nav-links a:active{
+    color: blue;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.mission-image {
+    filter: grayscale(5%) brightness(50%);
+    width: 1500px;
+}
+
+.mission-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.text {
+    background-color: hsla(24, 100%, 96%, 0.491);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: -20px;
+}
+
+.tea {
+    width: 400px;
+    height: 300px;
+    filter: grayscale(5%) brightness(50%);
+}   
+
+.container-2 {
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  
+}
+
+.con-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#item {
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.title {
+    display: flex; /* Use flexbox layout */  
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the container */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    display: flex; /* Use flexbox layout */  
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the container */
+    margin-top: 5px;
+}
+
+.subtext {
+    display: flex; /* Use flexbox layout */  
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the container */
+}
+
+h4 {
+    font-size: 32px;
+}
+
+.main-title {
+    font-size: 52px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.sub-main-title{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.subtext {
+ margin-top: 10px;
+ margin-bottom: 5px;
+ font-size: 28px;
+}
+
+#footer-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 80px;
+    
+    
+}
+
+#loc-txt {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#location-img{
+    width: 1500px;
+    clip-path: inset(0px 0px calc(100% - 720px) 0px);
+    filter: grayscale(5%) brightness(50%);
+
+}
+
+#l-t{
+    margin-top: 15px;
+    color: hsla(0, 3%, 88%, 0.457);
+
+}
+
+.blocks {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 1500px;
+}
+
+.bl {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    /* align-content:stretch; */
+    /* align-items:; */
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 40px;
+    color: hsla(0, 0%, 100%, 0.925);
+    padding: 20px;
+}
+
+#below-text {
+    width: 100%;
+    display: flexbox;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    text-align: center;
+    margin-top: -200px;
+}
+
+#last{
+    margin-left: 20px;
+}
